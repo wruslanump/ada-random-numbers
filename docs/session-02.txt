@@ -1,0 +1,93 @@
+========================================================
+gprbuild -d -P/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr -s -k
+Compile
+   [Ada]          main_ada_random_numbers.adb
+Bind
+   [gprbind]      main_ada_random_numbers.bexch
+   [Ada]          main_ada_random_numbers.ali
+Link
+   [link]         main_ada_random_numbers.adb
+[2021-02-22 00:15:11] process terminated successfully, elapsed time: 01.05s
+
+=========================================================
+/home/wruslan/github-ump/ada-random-numbers/exec/main_ada_random_numbers.adx
+2021-02-21 16:15:52.98568868235 Bismillah 3 times WRY
+2021-02-21 16:15:52.98568881449 Running inside GNAT Studio Community
+
+Random integer (1..100) =  52
+Random integer (1..100) =  99
+Random integer (1..100) =  89
+Random integer (1..100) =  83
+Random integer (1..100) =  78
+
+Random float (0.0 .. 1.0) =  5.83515E-01
+Random float (0.0 .. 1.0) =  5.71053E-01
+Random float (0.0 .. 1.0) =  4.99877E-01
+Random float (0.0 .. 1.0) =  9.97995E-01
+Random float (0.0 .. 1.0) =  4.06289E-01
+
+random_int = -2
+random_int =  2
+random_int = -6
+random_int = -5
+random_int = -16
+
+random_float =  1.31903E-01
+random_float = -3.36496E+00
+random_float =  3.20728E+00
+random_float = -2.75197E+00
+random_float =  2.51774E+00
+
+2021-02-21 16:15:52.98568989085 Alhamdulillah 3 times WRY
+[2021-02-22 00:15:53] process terminated successfully, elapsed time: 00.19s
+
+=========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-random-numbers$ tree ./
+./
+├── ada_random_numbers.gpr
+├── docs
+│   ├── examples-for-random.txt
+│   ├── session-01.txt
+│   └── session-02.txt
+├── exec
+│   └── main_ada_random_numbers.adx
+├── figures
+├── obj
+│   ├── ada_random_numbers-loc.xml
+│   ├── b__main_ada_random_numbers.adb
+│   ├── b__main_ada_random_numbers.ads
+│   ├── b__main_ada_random_numbers.ali
+│   ├── b__main_ada_random_numbers.o
+│   ├── gpsauto.cgpr
+│   ├── main_ada_random_numbers.adb.stderr
+│   ├── main_ada_random_numbers.adb.stdout
+│   ├── main_ada_random_numbers.ali
+│   ├── main_ada_random_numbers.bexch
+│   ├── main_ada_random_numbers.cswi
+│   ├── main_ada_random_numbers.o
+│   ├── pkg_ada_dtstamp.adb.stderr
+│   ├── pkg_ada_dtstamp.adb.stdout
+│   ├── pkg_ada_dtstamp.ali
+│   ├── pkg_ada_dtstamp.cswi
+│   ├── pkg_ada_dtstamp.o
+│   ├── pkg_ada_random.adb.stderr
+│   ├── pkg_ada_random.adb.stdout
+│   ├── pkg_ada_random.ali
+│   ├── pkg_ada_random.cswi
+│   └── pkg_ada_random.o
+├── README.md
+└── src
+    ├── main_ada_random_numbers.adb
+    ├── pkg-ada-dtstamp
+    │   ├── pkg_ada_dtstamp.adb
+    │   └── pkg_ada_dtstamp.ads
+    └── pkg-ada-random
+        ├── pkg_ada_random.adb
+        └── pkg_ada_random.ads
+
+7 directories, 33 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-random-numbers$ 
+
+===========================================================
+ALHAMDULILLAH 3 TIMES.
+===========================================================

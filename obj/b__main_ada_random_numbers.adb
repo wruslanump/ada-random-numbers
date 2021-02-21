@@ -38,7 +38,7 @@ package body ada_main is
    E152 : Short_Integer; pragma Import (Ada, E152, "ada__calendar__time_zones_E");
    E006 : Short_Integer; pragma Import (Ada, E006, "ada__real_time_E");
    E128 : Short_Integer; pragma Import (Ada, E128, "ada__text_io_E");
-   E209 : Short_Integer; pragma Import (Ada, E209, "system__random_seed_E");
+   E211 : Short_Integer; pragma Import (Ada, E211, "system__random_seed_E");
    E146 : Short_Integer; pragma Import (Ada, E146, "pkg_ada_dtstamp_E");
    E204 : Short_Integer; pragma Import (Ada, E204, "pkg_ada_random_E");
 
@@ -257,7 +257,7 @@ package body ada_main is
       Ada.Text_Io'Elab_Body;
       E128 := E128 + 1;
       System.Random_Seed'Elab_Body;
-      E209 := E209 + 1;
+      E211 := E211 + 1;
       pkg_ada_dtstamp'elab_body;
       E146 := E146 + 1;
       pkg_ada_random'elab_body;

@@ -1,0 +1,87 @@
+
+======================================================
+Example of a program that plays a simulated dice game: 
+56
+with Ada.Numerics.Discrete_Random;
+procedure Dice_Game is
+   subtype Die is Integer range 1 .. 6;
+   subtype Dice is Integer range 2*Die'First .. 2*Die'Last;
+   package Random_Die is new Ada.Numerics.Discrete_Random (Die);
+   use Random_Die;
+   G : Generator;
+   D : Dice;
+begin
+   Reset (G);  -- Start the generator in a unique state in each run
+   loop
+      -- Roll a pair of dice; sum and process the results
+      D := Random(G) + Random(G);
+      ...
+   end loop;
+end Dice_Game;
+57
+
+=======================================================
+Example of a program that simulates coin tosses: 
+58
+with Ada.Numerics.Discrete_Random;
+procedure Flip_A_Coin is
+   type Coin is (Heads, Tails);
+   package Random_Coin is new Ada.Numerics.Discrete_Random (Coin);
+   use Random_Coin;
+   G : Generator;
+begin
+   Reset (G);  -- Start the generator in a unique state in each run
+   loop
+      -- Toss a coin and process the result
+      case Random(G) is
+          when Heads =>
+             ...
+          when Tails =>
+             ...
+      end case;
+   ...
+   end loop;
+end Flip_A_Coin;
+59
+
+=========================================================
+Example of a parallel simulation of a physical system, with a separate generator of event probabilities in each task: 
+60
+
+with Ada.Numerics.Float_Random;
+
+procedure Parallel_Simulation is
+   use Ada.Numerics.Float_Random;
+   
+   task type Worker is
+      entry Initialize_Generator (Initiator : in Integer);
+      ...
+   end Worker;
+   
+   W : array (1 .. 10) of Worker;
+   
+   task body Worker is
+      G : Generator;
+      Probability_Of_Event : Uniformly_Distributed;
+   begin
+      accept Initialize_Generator (Initiator : in Integer) do
+         Reset (G, Initiator);
+      end Initialize_Generator;
+      loop
+         ...
+         Probability_Of_Event := Random(G);
+         ...
+      end loop;
+   end Worker;
+begin
+   -- Initialize the generators in the Worker tasks to different states
+   for I in W'Range loop
+      W(I).Initialize_Generator (I);
+   end loop;
+   ... -- Wait for the Worker tasks to terminate
+end Parallel_Simulation;
+
+===========================================================
+NOTES
+61
+17  Notes on the last example: Although each Worker task initializes its generator to a different state, those states will be the same in every execution of the program. The generator states can be initialized uniquely in each program execution by instantiating Ada.Numerics.Discrete_Random for the type Integer in the main procedure, resetting the generator obtained from that instance to a time-dependent state, and then using random integers obtained from that generator to initialize the generators in each Worker task. 

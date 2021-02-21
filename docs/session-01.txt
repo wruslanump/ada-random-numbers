@@ -1,0 +1,145 @@
+========================================================
+gprbuild -d -P/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr /home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb
+Compile
+   [Ada]          pkg_ada_random.adb
+Bind
+   [gprbind]      main_ada_random_numbers.bexch
+   [Ada]          main_ada_random_numbers.ali
+Link
+   [link]         main_ada_random_numbers.adb
+[2021-02-21 21:51:23] process terminated successfully, elapsed time: 00.81s
+
+=========================================================
+home/wruslan/github-ump/ada-random-numbers/exec/main_ada_random_numbers.adx
+2021-02-21 13:51:23.92512275836 Bismillah 3 times WRY
+2021-02-21 13:51:23.93512293290 Running inside GNAT Studio Community
+
+Random integer (1..100) =  20
+Random integer (1..100) =  4
+Random integer (1..100) =  68
+Random integer (1..100) =  94
+Random integer (1..100) =  56
+Random integer (1..100) =  92
+Random integer (1..100) =  69
+Random integer (1..100) =  40
+Random integer (1..100) =  38
+Random integer (1..100) =  19
+
+2021-02-21 13:51:23.93512421102 Alhamdulillah 3 times WRY
+[2021-02-21 21:51:24] process terminated successfully, elapsed time: 00.20s
+
+=========================================================
+
+wruslan@HPEliteBook8470p-Ub2004-rt38:~$ cd github-ump/
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump$ ls -al
+total 28
+drwxrwxr-x  7 wruslan wruslan 4096 Feb 21 18:34 .
+drwxr-xr-x 73 wruslan wruslan 4096 Feb 21 19:54 ..
+drwxrwxr-x  8 wruslan wruslan 4096 Feb 21 18:20 ada-date-time-rt-stamp
+drwxrwxr-x  8 wruslan wruslan 4096 Feb 21 19:23 ada-parallel-port
+drwxrwxr-x  8 wruslan wruslan 4096 Feb 21 19:22 ada-parallel-tasks
+drwxrwxr-x  8 wruslan wruslan 4096 Feb 21 19:35 ada-random-numbers
+drwxrwxr-x  2 wruslan wruslan 4096 Feb 21 16:29 photos
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump$ cd ada-random-numbers/
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-random-numbers$ ls -al
+total 44
+drwxrwxr-x 8 wruslan wruslan 4096 Feb 21 19:35 .
+drwxrwxr-x 7 wruslan wruslan 4096 Feb 21 18:34 ..
+-rw-rw-r-- 1 wruslan wruslan 4269 Feb 21 19:35 ada_random_numbers.gpr
+drwxrwxr-x 2 wruslan wruslan 4096 Feb 21 19:19 docs
+drwxrwxr-x 2 wruslan wruslan 4096 Feb 21 21:51 exec
+drwxrwxr-x 2 wruslan wruslan 4096 Feb 21 19:19 figures
+drwxrwxr-x 8 wruslan wruslan 4096 Feb 21 21:51 .git
+drwxrwxr-x 2 wruslan wruslan 4096 Feb 21 21:51 obj
+-rw-rw-r-- 1 wruslan wruslan   40 Feb 21 18:34 README.md
+drwxrwxr-x 4 wruslan wruslan 4096 Feb 21 21:50 src
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-random-numbers$ git add .
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-random-numbers$ git commit -m "generate random integers"
+[main ef19067] generate random integers
+ 29 files changed, 2380 insertions(+)
+ create mode 100644 ada_random_numbers.gpr
+ create mode 100755 exec/main_ada_random_numbers.adx
+ create mode 100644 obj/ada_random_numbers-loc.xml
+ create mode 100644 obj/b__main_ada_random_numbers.adb
+ create mode 100644 obj/b__main_ada_random_numbers.ads
+ create mode 100644 obj/b__main_ada_random_numbers.ali
+ create mode 100644 obj/b__main_ada_random_numbers.o
+ create mode 100644 obj/gpsauto.cgpr
+ create mode 100644 obj/main_ada_random_numbers.adb.stderr
+ create mode 100644 obj/main_ada_random_numbers.adb.stdout
+ create mode 100644 obj/main_ada_random_numbers.ali
+ create mode 100644 obj/main_ada_random_numbers.bexch
+ create mode 100644 obj/main_ada_random_numbers.cswi
+ create mode 100644 obj/main_ada_random_numbers.o
+ create mode 100644 obj/pkg_ada_dtstamp.adb.stderr
+ create mode 100644 obj/pkg_ada_dtstamp.adb.stdout
+ create mode 100644 obj/pkg_ada_dtstamp.ali
+ create mode 100644 obj/pkg_ada_dtstamp.cswi
+ create mode 100644 obj/pkg_ada_dtstamp.o
+ create mode 100644 obj/pkg_ada_random.adb.stderr
+ create mode 100644 obj/pkg_ada_random.adb.stdout
+ create mode 100644 obj/pkg_ada_random.ali
+ create mode 100644 obj/pkg_ada_random.cswi
+ create mode 100644 obj/pkg_ada_random.o
+ create mode 100644 src/main_ada_random_numbers.adb
+ create mode 100644 src/pkg-ada-dtstamp/pkg_ada_dtstamp.adb
+ create mode 100644 src/pkg-ada-dtstamp/pkg_ada_dtstamp.ads
+ create mode 100644 src/pkg-ada-random/pkg_ada_random.adb
+ create mode 100644 src/pkg-ada-random/pkg_ada_random.ads
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-random-numbers$ 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-random-numbers$ git push origin main
+Username for 'https://github.com': wruslanump
+Password for 'https://wruslanump@github.com': 
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (31/31), 60.81 KiB | 3.58 MiB/s, done.
+Total 31 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/wruslanump/ada-random-numbers.git
+   e517244..ef19067  main -> main
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-random-numbers$ tree ./
+./
+├── ada_random_numbers.gpr
+├── docs
+├── exec
+│   └── main_ada_random_numbers.adx
+├── figures
+├── obj
+│   ├── ada_random_numbers-loc.xml
+│   ├── b__main_ada_random_numbers.adb
+│   ├── b__main_ada_random_numbers.ads
+│   ├── b__main_ada_random_numbers.ali
+│   ├── b__main_ada_random_numbers.o
+│   ├── gpsauto.cgpr
+│   ├── main_ada_random_numbers.adb.stderr
+│   ├── main_ada_random_numbers.adb.stdout
+│   ├── main_ada_random_numbers.ali
+│   ├── main_ada_random_numbers.bexch
+│   ├── main_ada_random_numbers.cswi
+│   ├── main_ada_random_numbers.o
+│   ├── pkg_ada_dtstamp.adb.stderr
+│   ├── pkg_ada_dtstamp.adb.stdout
+│   ├── pkg_ada_dtstamp.ali
+│   ├── pkg_ada_dtstamp.cswi
+│   ├── pkg_ada_dtstamp.o
+│   ├── pkg_ada_random.adb.stderr
+│   ├── pkg_ada_random.adb.stdout
+│   ├── pkg_ada_random.ali
+│   ├── pkg_ada_random.cswi
+│   └── pkg_ada_random.o
+├── README.md
+└── src
+    ├── main_ada_random_numbers.adb
+    ├── pkg-ada-dtstamp
+    │   ├── pkg_ada_dtstamp.adb
+    │   └── pkg_ada_dtstamp.ads
+    └── pkg-ada-random
+        ├── pkg_ada_random.adb
+        └── pkg_ada_random.ads
+
+7 directories, 30 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-ump/ada-random-numbers$ 
+
+
