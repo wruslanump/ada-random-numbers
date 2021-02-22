@@ -1,0 +1,117 @@
+gprbuild -d -P/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr /home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb
+gprbuild: "main_ada_random_numbers.adx" up to date
+[2021-02-22 09:17:56] process terminated successfully, elapsed time: 00.80s
+
+-- EXECUTION
+/home/wruslan/github-ump/ada-random-numbers/exec/main_ada_random_numbers.adx
+2021-02-22 01:17:56.98054949118 Bismillah 3 times WRY
+2021-02-22 01:17:56.98055140300 Running inside GNAT Studio Community
+
+PAR.generate_random_integer;
+Random integer (1..100) =  17
+Random integer (1..100) =  84
+Random integer (1..100) =  65
+Random integer (1..100) =  27
+Random integer (1..100) =  57
+
+PAR.generate_random_float;
+Random float (0.0 .. 1.0) =  6.40517E-01
+Random float (0.0 .. 1.0) =  5.51473E-02
+Random float (0.0 .. 1.0) =  2.45588E-01
+Random float (0.0 .. 1.0) =  2.37335E-01
+Random float (0.0 .. 1.0) =  1.08305E-01
+
+random_int := PAR.get_random_integer (-20, +12);
+random_int =  12
+random_int = -5
+random_int =  10
+random_int = -7
+random_int = -17
+
+random_float := PAR.get_random_float (-3.5, +3.5);
+random_float =  1.90540E+00
+random_float =  2.39291E+00
+random_float = -3.31671E+00
+random_float =  2.48616E+00
+random_float = -3.26613E+00
+
+2021-02-22 01:17:56.98055367788 Alhamdulillah 3 times WRY
+[2021-02-22 09:17:57] process terminated successfully, elapsed time: 00.20s
+
+===========================================================
+gprclean -r -P/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr -c -f
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_random.o" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_random.ali" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_random.cswi" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_random.adb.stdout" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_random.adb.stderr" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_dtstamp.o" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_dtstamp.ali" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_dtstamp.cswi" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_dtstamp.adb.stdout" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/pkg_ada_dtstamp.adb.stderr" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/main_ada_random_numbers.o" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/main_ada_random_numbers.ali" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/main_ada_random_numbers.cswi" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/main_ada_random_numbers.adb.stdout" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/main_ada_random_numbers.adb.stderr" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/b__main_ada_random_numbers.o" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/b__main_ada_random_numbers.ads" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/b__main_ada_random_numbers.adb" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/b__main_ada_random_numbers.ali" has been deleted
+"/home/wruslan/github-ump/ada-random-numbers/obj/main_ada_random_numbers.bexch" has been deleted
+[2021-02-22 09:24:40] process terminated successfully, elapsed time: 01.37s
+
+===========================================================
+gprbuild -d -P/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr /home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb
+Compile
+   [Ada]          main_ada_random_numbers.adb
+   [Ada]          pkg_ada_dtstamp.adb
+   [Ada]          pkg_ada_random.adb
+Bind
+   [gprbind]      main_ada_random_numbers.bexch
+   [Ada]          main_ada_random_numbers.ali
+Link
+   [link]         main_ada_random_numbers.adb
+[2021-02-22 09:25:59] process terminated successfully, elapsed time: 01.10s
+
+===========================================================
+/home/wruslan/github-ump/ada-random-numbers/exec/main_ada_random_numbers.adx
+2021-02-22 01:25:59.63702571836 Bismillah 3 times WRY
+2021-02-22 01:25:59.63702591079 Running inside GNAT Studio Community
+
+PAR.generate_random_integer;
+Random integer (1..100) =  52
+Random integer (1..100) =  33
+Random integer (1..100) =  87
+Random integer (1..100) =  5
+Random integer (1..100) =  35
+
+PAR.generate_random_float;
+Random float (0.0 .. 1.0) =  9.24871E-01
+Random float (0.0 .. 1.0) =  8.19099E-01
+Random float (0.0 .. 1.0) =  4.72100E-01
+Random float (0.0 .. 1.0) =  3.48462E-01
+Random float (0.0 .. 1.0) =  2.11673E-01
+
+random_int := PAR.get_random_integer (-20, +12);
+random_int = -6
+random_int = -3
+random_int = -15
+random_int =  11
+random_int =  5
+
+random_float := PAR.get_random_float (-3.5, +3.5);
+random_float = -3.30817E+00
+random_float =  2.20295E+00
+random_float =  2.70409E+00
+random_float =  9.85888E-01
+random_float = -7.73273E-02
+
+2021-02-22 01:25:59.63702804800 Alhamdulillah 3 times WRY
+[2021-02-22 09:25:59] process terminated successfully, elapsed time: 00.20s
+
+===========================================================
+
+
+
