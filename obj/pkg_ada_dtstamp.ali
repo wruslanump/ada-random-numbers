@@ -15,13 +15,16 @@ RV NO_LOCAL_ALLOCATORS
 RV NO_NESTED_FINALIZATION
 RV NO_SECONDARY_STACK
 RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
 RV NO_DEFAULT_INITIALIZATION
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
+RV MAX_TASKS=1+
 
-U pkg_ada_dtstamp%b	pkg_ada_dtstamp.adb	75eb9fdd OO PK IL
+U pkg_ada_dtstamp%b	pkg_ada_dtstamp.adb	78490ffd OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
 W ada.calendar.formatting%s  a-calfor.adb	a-calfor.ali
@@ -37,14 +40,19 @@ W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
 W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
 Z system.concat_2%s	s-conca2.adb		s-conca2.ali
 Z system.img_lld%s	s-imglld.adb		s-imglld.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
-U pkg_ada_dtstamp%s	pkg_ada_dtstamp.ads	738280fa EE NE OO PK IL
+U pkg_ada_dtstamp%s	pkg_ada_dtstamp.ads	0ebf97fc EE NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 W ada.strings%s		a-string.ads		a-string.ali
@@ -76,8 +84,8 @@ D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20200312110721 5ab55268 interfaces%s
 D i-c.ads		20200312110721 5421119b interfaces.c%s
 D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
-D pkg_ada_dtstamp.ads	20210221081420 f15ab596 pkg_ada_dtstamp%s
-D pkg_ada_dtstamp.adb	20210221093707 090b2ea7 pkg_ada_dtstamp%b
+D pkg_ada_dtstamp.ads	20210222020320 8c67a290 pkg_ada_dtstamp%s
+D pkg_ada_dtstamp.adb	20210222020237 7994a981 pkg_ada_dtstamp%b
 D system.ads		20200312110721 4635ec04 system%s
 D s-atacco.ads		20200312110721 4c36d12f system.address_to_access_conversions%s
 D s-atocou.ads		20200312110721 b45c2d8d system.atomic_counters%s
@@ -108,6 +116,7 @@ D s-tasinf.ads		20200312110721 2b3f8252 system.task_info%s
 D s-taspri.ads		20200312110721 f40ac08d system.task_primitives%s
 D s-taprop.ads		20200312110721 1dd2e1b6 system.task_primitives.operations%s
 D s-taskin.ads		20200312110721 b9d612e2 system.tasking%s
+D s-tassta.ads		20200312110721 cca55c94 system.tasking.stages%s
 D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
@@ -167,12 +176,13 @@ X 22 a-textio.ads
 166U14*New_Line 28|172s15 182s15
 242U14*Put 28|78s12 79s12 165s15 167s15 169s15 175s15 177s15 179s15
 263U14*Put_Line 28|164s15 166s15 168s15 171s15 174s15 176s15 178s15 181s15
+. 215s29 225s29
 X 27 pkg_ada_dtstamp.ads
-10K9*pkg_ada_dtstamp 31l5 31e20 28|33b14 203l5 203t20
+10K9*pkg_ada_dtstamp 33l5 33e20 28|33b14 241l5 241t20
 14K12*AART=14:29 18r40 19r40 21r42 27r60 27r89 28r55 28r84 28|159r60 159r89
 . 160r21 189r54 189r83
 15K12*AASU=15:37 18r58 19r58
-17U14*dtstamp 28|76b15 80l13 80t20
+17U14*dtstamp 28|76b15 80l13 80t20 215s15 225s15
 18V14*get_datestamp{19|79R9} 18>29 28|85b14 93l14 93t27
 18o29 RTNow{11|49O9} 28|85b28
 19V14*get_timestamp{19|79R9} 19>29 28|98b14 110l14 110t27
@@ -181,7 +191,7 @@ X 27 pkg_ada_dtstamp.ads
 21o31 interval{11|54O9} 28|115b32 121r32
 22U14*exec_delay_sec 22>31 28|127b14 130l8 130t22
 22i31 sec{positive} 28|127b30 129r44
-23U14*exec_delay_msec 23>31 28|135b14 138l8 138t23
+23U14*exec_delay_msec 23>31 28|135b14 138l8 138t23 216s15 226s15
 23i31 msec{positive} 28|135b31 137r49
 24U14*exec_delay_usec 24>31 28|143b14 146l8 146t23
 24i31 usec{positive} 28|143b31 145r49
@@ -195,9 +205,10 @@ X 27 pkg_ada_dtstamp.ads
 28o28 the_start{11|49O9} 28|189b27 191r24
 28o39 the_finish{11|49O9} 28|189b38 191r11
 28o66 the_deadline{11|54O9} 28|189b65 191r37
+30U14*exec_task_01 28|203b14 233l8 233t20
 X 28 pkg_ada_dtstamp.adb
 38K12 ATIO=38:31 78r7 79r7 164r10 165r10 166r10 167r10 168r10 169r10 171r10
-. 172r10 174r10 175r10 176r10 177r10 178r10 179r10 181r10 182r10
+. 172r10 174r10 175r10 176r10 177r10 178r10 179r10 181r10 182r10 215r24 225r24
 39K12 ACal=39:31 78r17 78r39 90r49 90r72 105r48 105r71
 40K12 ACalF=40:40
 41K12 ART=41:31 52r24 52r42 53r24 53r42 54r24 54r42 55r24 55r42 56r30 56r48
@@ -227,6 +238,12 @@ X 28 pkg_ada_dtstamp.adb
 101r10 fraction_only{19|79R9} 107m10 108r36
 102r10 timestring{19|79R9} 108m10 109r18
 160o7 the_overrun{11|54O9} 170m10 171r51 180m10 181r51
+205T17 tsktyp_01 207r21 211b19 218l13 218t22
+206T17 tsktyp_02 208r21 221b19 228l13 228t22
+207t7 the_task_01{205T17}
+208t7 the_task_02{206T17}
+214i14 I{integer}
+224i14 I{integer}
 X 29 system.ads
 67M9*Address
 X 40 s-memory.ads

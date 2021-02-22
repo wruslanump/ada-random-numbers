@@ -62,6 +62,12 @@ begin
       ATIO.Put_Line("random_float = " & Float'Image(random_float));
    end loop;
     
+   -- TEST RUN TWO TASKS
+   ATIO.New_Line; 
+   ATIO.Put_Line("PADTS.exec_task_01;");
+   PADTS.exec_task_01;
+   
+   
    
    ATIO.New_Line; PADTS.dtstamp; ATIO.Put_Line ("Alhamdulillah 3 times WRY");
 -- ========================================================   
@@ -101,6 +107,27 @@ end main_ada_random_numbers;
 -- random_float =  2.48616E+00
 -- random_float = -3.26613E+00
 
--- 2021-02-22 01:17:56.98055367788 Alhamdulillah 3 times WRY
--- [2021-02-22 09:17:57] process terminated successfully, elapsed time: 00.20s
+-- PADTS.exec_task_01;
+-- 2021-02-22 02:05:41.532021-02-22 02:05:41.53606240664 Running tsktyp_02
+-- 606231971 Running tsktyp_01 
+-- 2021-02-22 02:05:42.03106464690 Running tsktyp_01 
+-- 2021-02-22 02:05:42.53606431195 Running tsktyp_02
+-- 2021-02-22 02:05:42.53606624736 Running tsktyp_01 
+-- 2021-02-22 02:05:43.03106822503 Running tsktyp_01 
+-- 2021-02-22 02:05:43.53606626764 Running tsktyp_02
+-- 2021-02-22 02:05:43.53607013684 Running tsktyp_01 
+-- 2021-02-22 02:05:44.03107168931 Running tsktyp_01 
+-- 2021-02-22 02:05:44.53606856382 Running tsktyp_02
+-- 2021-02-22 02:05:44.53607400563 Running tsktyp_01 
+-- 2021-02-22 02:05:45.03107587742 Running tsktyp_01 
+-- 2021-02-22 02:05:45.53607054676 Running tsktyp_02
+-- 2021-02-22 02:05:45.53607755681 Running tsktyp_01 
+-- 2021-02-22 02:05:46.04107959165 Running tsktyp_01 
+-- 2021-02-22 02:05:46.53607366206 Running tsktyp_02
+-- 2021-02-22 02:05:47.53607593687 Running tsktyp_02
+-- 2021-02-22 02:05:48.53607795318 Running tsktyp_02
+-- 2021-02-22 02:05:49.54607990323 Running tsktyp_02
+-- 2021-02-22 02:05:50.54608176876 Running tsktyp_02
 
+-- 2021-02-22 02:05:51.54608538756 Alhamdulillah 3 times WRY
+-- [2021-02-22 10:05:51] process terminated successfully, elapsed time: 10.15s

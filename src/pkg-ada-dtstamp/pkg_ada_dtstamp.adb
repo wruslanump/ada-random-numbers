@@ -196,6 +196,44 @@ is
       
    end getif_overrun;   
    
+   
+-- ====================================================
+-- (7) Procedure using two(2) tasks
+-- ===================================================
+   procedure exec_task_01 is
+      
+      task type tsktyp_01;
+      task type tsktyp_02;
+      the_task_01 : tsktyp_01;
+      the_task_02 : tsktyp_02;
+     
+     -- =====================     
+        task body tsktyp_01 is
+     -- =====================   
+        begin
+         for I in 1..10 loop
+              dtstamp; ATIO.Put_Line("Running tsktyp_01 ");
+              exec_delay_msec (500);
+          end loop;
+        end tsktyp_01;
+        
+    -- =====================     
+        task body tsktyp_02 is
+    -- =====================    
+        begin
+         for I in 1..10 loop
+              dtstamp; ATIO.Put_Line("Running tsktyp_02");
+              exec_delay_msec (1_000);
+          end loop;
+        end tsktyp_02;    
+        
+    -- =====================                         
+   begin
+      null;
+   end exec_task_01;
+ 
+   
+   
 -- ========================================================
 begin
     null;

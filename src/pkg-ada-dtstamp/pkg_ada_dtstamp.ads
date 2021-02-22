@@ -27,6 +27,8 @@ is
    procedure exec_check_overrun(the_start, the_finish : in AART.Time; the_deadline : in AART.Time_Span);
    function  getif_overrun(the_start, the_finish : in AART.Time; the_deadline : in AART.Time_Span) return Boolean;
    
+   procedure exec_task_01; -- TESTING
+   
 -- ======================================================== 
 end pkg_ada_dtstamp;
 

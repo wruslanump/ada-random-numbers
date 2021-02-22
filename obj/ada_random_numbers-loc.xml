@@ -1,301 +1,34 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
-    <file_marker column=" 1" line=" 1" >
+  <Project>
+    <vfs_file>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_file>
+    <file_marker column=" 52" line=" 61" >
       <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
       <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 41" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
+    <file_marker column=" 31" line=" 85" >
       <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
       <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 6" line=" 25" >
+    <file_marker column=" 1" line=" 106" >
       <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
       <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/wruslan/github-ump/ada-date-time-rt-stamp/README.md</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 106" >
       <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
+      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/README.md</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
       <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 12" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 2" line=" 13" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 18" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 39" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 15" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 46" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 33" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 36" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 20" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 33" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 20" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 33" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 36" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 53" line=" 27" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 26" line=" 25" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 33" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 88" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 33" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 33" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 43" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 53" line=" 17" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 33" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 31" line=" 45" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 43" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 36" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 43" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 5" line=" 45" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 43" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 100" >
-      <vfs_project />
-      <vfs_file>/usr/lib/gcc/x86_64-linux-gnu/9/adainclude/a-textio.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 43" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 10" line=" 44" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 36" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 35" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 36" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 42" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 37" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 39" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 46" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 42" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 29" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 20" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 23" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 26" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 23" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 20" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 26" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 28" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 21" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 12" line=" 25" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 12" line=" 26" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 28" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 26" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 30" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 26" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 65" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 63" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 62" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 51" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 33" line=" 63" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 62" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 63" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 112" >
-      <vfs_project />
-      <vfs_file>/usr/lib/gcc/x86_64-linux-gnu/9/adainclude/s-stoele.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 15" line=" 63" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 54" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 49" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 46" line=" 58" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 70" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/pkg-ada-random/pkg_ada_random.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 53" line=" 58" >
-      <vfs_project>/home/wruslan/github-ump/ada-random-numbers/ada_random_numbers.gpr</vfs_project>
-      <vfs_file>/home/wruslan/github-ump/ada-random-numbers/src/main_ada_random_numbers.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
